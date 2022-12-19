@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		552C071EFE84E053CE395ADC /* Pods_NikeshTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCC4517AE3BCE1060561E13 /* Pods_NikeshTutorialTests.framework */; };
+		94E36EE329503A2C0094BAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36EE229503A2C0094BAE3 /* AppDelegate.swift */; };
+		94E36EE529503A2C0094BAE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36EE429503A2C0094BAE3 /* SceneDelegate.swift */; };
+		94E36EE729503A2C0094BAE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36EE629503A2C0094BAE3 /* ViewController.swift */; };
+		94E36EEA29503A2C0094BAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E36EE829503A2C0094BAE3 /* Main.storyboard */; };
+		94E36EED29503A2C0094BAE3 /* NikeshTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E36EEB29503A2C0094BAE3 /* NikeshTutorial.xcdatamodeld */; };
+		94E36EEF29503A2D0094BAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E36EEE29503A2D0094BAE3 /* Assets.xcassets */; };
+		94E36EF229503A2D0094BAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E36EF029503A2D0094BAE3 /* LaunchScreen.storyboard */; };
+		94E36EFD29503A2D0094BAE3 /* NikeshTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36EFC29503A2D0094BAE3 /* NikeshTutorialTests.swift */; };
+		94E36F0729503A2E0094BAE3 /* NikeshTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F0629503A2E0094BAE3 /* NikeshTutorialUITests.swift */; };
+		94E36F0929503A2E0094BAE3 /* NikeshTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F0829503A2E0094BAE3 /* NikeshTutorialUITestsLaunchTests.swift */; };
+		94E36F1A29503BA80094BAE3 /* AdaptiveLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F1929503BA80094BAE3 /* AdaptiveLayoutConstraint.swift */; };
+		94E36F1E29503BDF0094BAE3 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F1D29503BDF0094BAE3 /* RoundedView.swift */; };
+		94E36F2029503BFE0094BAE3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F1F29503BFE0094BAE3 /* GradientView.swift */; };
+		94E36F2229503C370094BAE3 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2129503C370094BAE3 /* UIStoryboard+Extension.swift */; };
+		94E36F2629503C4F0094BAE3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2529503C4F0094BAE3 /* UIView+Extension.swift */; };
+		94E36F2A29503C640094BAE3 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2929503C640094BAE3 /* UIStackView+Extension.swift */; };
+		94E36F2C29503C720094BAE3 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2B29503C720094BAE3 /* CGFloat+Extension.swift */; };
+		94E36F2E29503C830094BAE3 /* TextFields+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2D29503C830094BAE3 /* TextFields+Extension.swift */; };
+		94E36F3029503C9C0094BAE3 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36F2F29503C9C0094BAE3 /* UIImageView+Extension.swift */; };
+		A48F46D52FCCA710FDC8F38D /* Pods_NikeshTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0DE017B7BA66275CC8B7F /* Pods_NikeshTutorial.framework */; };
+		E6D95708F5D34C86E23DBEA7 /* Pods_NikeshTutorial_NikeshTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091709DB86133BF5150F4262 /* Pods_NikeshTutorial_NikeshTutorialUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E36EF929503A2D0094BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E36ED729503A2B0094BAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E36EDE29503A2B0094BAE3;
+			remoteInfo = NikeshTutorial;
+		};
+		94E36F0329503A2E0094BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E36ED729503A2B0094BAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E36EDE29503A2B0094BAE3;
+			remoteInfo = NikeshTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091709DB86133BF5150F4262 /* Pods_NikeshTutorial_NikeshTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikeshTutorial_NikeshTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE66FF4E2C7ACE42D92517E /* Pods-NikeshTutorial-NikeshTutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorial-NikeshTutorialUITests.debug.xcconfig"; path = "Target Support Files/Pods-NikeshTutorial-NikeshTutorialUITests/Pods-NikeshTutorial-NikeshTutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A86CB57D38AE1F4447B080B /* Pods-NikeshTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorial.debug.xcconfig"; path = "Target Support Files/Pods-NikeshTutorial/Pods-NikeshTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		94E36EDF29503A2C0094BAE3 /* NikeshTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeshTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E36EE229503A2C0094BAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94E36EE429503A2C0094BAE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94E36EE629503A2C0094BAE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94E36EE929503A2C0094BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94E36EEC29503A2C0094BAE3 /* NikeshTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NikeshTutorial.xcdatamodel; sourceTree = "<group>"; };
+		94E36EEE29503A2D0094BAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E36EF129503A2D0094BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94E36EF329503A2D0094BAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E36EF829503A2D0094BAE3 /* NikeshTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeshTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E36EFC29503A2D0094BAE3 /* NikeshTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeshTutorialTests.swift; sourceTree = "<group>"; };
+		94E36F0229503A2E0094BAE3 /* NikeshTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeshTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E36F0629503A2E0094BAE3 /* NikeshTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeshTutorialUITests.swift; sourceTree = "<group>"; };
+		94E36F0829503A2E0094BAE3 /* NikeshTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeshTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94E36F1929503BA80094BAE3 /* AdaptiveLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutConstraint.swift; sourceTree = "<group>"; };
+		94E36F1D29503BDF0094BAE3 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		94E36F1F29503BFE0094BAE3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		94E36F2129503C370094BAE3 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		94E36F2529503C4F0094BAE3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		94E36F2929503C640094BAE3 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		94E36F2B29503C720094BAE3 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		94E36F2D29503C830094BAE3 /* TextFields+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFields+Extension.swift"; sourceTree = "<group>"; };
+		94E36F2F29503C9C0094BAE3 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		9C3D22364FB03C892C8BC16C /* Pods-NikeshTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-NikeshTutorialTests/Pods-NikeshTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C0DE017B7BA66275CC8B7F /* Pods_NikeshTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikeshTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE1339EF191BFAF40249C2B /* Pods-NikeshTutorial-NikeshTutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorial-NikeshTutorialUITests.release.xcconfig"; path = "Target Support Files/Pods-NikeshTutorial-NikeshTutorialUITests/Pods-NikeshTutorial-NikeshTutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9DFC15907070A123ED9663C /* Pods-NikeshTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorial.release.xcconfig"; path = "Target Support Files/Pods-NikeshTutorial/Pods-NikeshTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		E41F312FF21EEF46C87DEE92 /* Pods-NikeshTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikeshTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-NikeshTutorialTests/Pods-NikeshTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFCC4517AE3BCE1060561E13 /* Pods_NikeshTutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikeshTutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E36EDC29503A2B0094BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F46D52FCCA710FDC8F38D /* Pods_NikeshTutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36EF529503A2D0094BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552C071EFE84E053CE395ADC /* Pods_NikeshTutorialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36EFF29503A2E0094BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D95708F5D34C86E23DBEA7 /* Pods_NikeshTutorial_NikeshTutorialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC416E7352348BEBF1E6308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0DE017B7BA66275CC8B7F /* Pods_NikeshTutorial.framework */,
+				091709DB86133BF5150F4262 /* Pods_NikeshTutorial_NikeshTutorialUITests.framework */,
+				FFCC4517AE3BCE1060561E13 /* Pods_NikeshTutorialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F5608F90CC887D08A8CF738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A86CB57D38AE1F4447B080B /* Pods-NikeshTutorial.debug.xcconfig */,
+				C9DFC15907070A123ED9663C /* Pods-NikeshTutorial.release.xcconfig */,
+				0AE66FF4E2C7ACE42D92517E /* Pods-NikeshTutorial-NikeshTutorialUITests.debug.xcconfig */,
+				AAE1339EF191BFAF40249C2B /* Pods-NikeshTutorial-NikeshTutorialUITests.release.xcconfig */,
+				9C3D22364FB03C892C8BC16C /* Pods-NikeshTutorialTests.debug.xcconfig */,
+				E41F312FF21EEF46C87DEE92 /* Pods-NikeshTutorialTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94E36ED629503A2B0094BAE3 = {
+			isa = PBXGroup;
+			children = (
+				94E36EE129503A2C0094BAE3 /* NikeshTutorial */,
+				94E36EFB29503A2D0094BAE3 /* NikeshTutorialTests */,
+				94E36F0529503A2E0094BAE3 /* NikeshTutorialUITests */,
+				94E36EE029503A2C0094BAE3 /* Products */,
+				7F5608F90CC887D08A8CF738 /* Pods */,
+				1AC416E7352348BEBF1E6308 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94E36EE029503A2C0094BAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E36EDF29503A2C0094BAE3 /* NikeshTutorial.app */,
+				94E36EF829503A2D0094BAE3 /* NikeshTutorialTests.xctest */,
+				94E36F0229503A2E0094BAE3 /* NikeshTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E36EE129503A2C0094BAE3 /* NikeshTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F1629503B6D0094BAE3 /* Customization */,
+				94E36F1529503B5F0094BAE3 /* Story */,
+				94E36F3329503F250094BAE3 /* Resources */,
+				94E36EF329503A2D0094BAE3 /* Info.plist */,
+				94E36EEB29503A2C0094BAE3 /* NikeshTutorial.xcdatamodeld */,
+			);
+			path = NikeshTutorial;
+			sourceTree = "<group>";
+		};
+		94E36EFB29503A2D0094BAE3 /* NikeshTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				94E36EFC29503A2D0094BAE3 /* NikeshTutorialTests.swift */,
+			);
+			path = NikeshTutorialTests;
+			sourceTree = "<group>";
+		};
+		94E36F0529503A2E0094BAE3 /* NikeshTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F0629503A2E0094BAE3 /* NikeshTutorialUITests.swift */,
+				94E36F0829503A2E0094BAE3 /* NikeshTutorialUITestsLaunchTests.swift */,
+			);
+			path = NikeshTutorialUITests;
+			sourceTree = "<group>";
+		};
+		94E36F1529503B5F0094BAE3 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F3229503F150094BAE3 /* AppDelegate */,
+				94E36F3129503F070094BAE3 /* Main */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		94E36F1629503B6D0094BAE3 /* Customization */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F1829503B7F0094BAE3 /* CustomViews */,
+				94E36F1729503B770094BAE3 /* Extensions */,
+			);
+			path = Customization;
+			sourceTree = "<group>";
+		};
+		94E36F1729503B770094BAE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F2129503C370094BAE3 /* UIStoryboard+Extension.swift */,
+				94E36F2529503C4F0094BAE3 /* UIView+Extension.swift */,
+				94E36F2929503C640094BAE3 /* UIStackView+Extension.swift */,
+				94E36F2B29503C720094BAE3 /* CGFloat+Extension.swift */,
+				94E36F2D29503C830094BAE3 /* TextFields+Extension.swift */,
+				94E36F2F29503C9C0094BAE3 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94E36F1829503B7F0094BAE3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F1C29503BD20094BAE3 /* Views */,
+				94E36F1B29503BC40094BAE3 /* LayoutConstraint */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		94E36F1B29503BC40094BAE3 /* LayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F1929503BA80094BAE3 /* AdaptiveLayoutConstraint.swift */,
+			);
+			path = LayoutConstraint;
+			sourceTree = "<group>";
+		};
+		94E36F1C29503BD20094BAE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94E36F1D29503BDF0094BAE3 /* RoundedView.swift */,
+				94E36F1F29503BFE0094BAE3 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94E36F3129503F070094BAE3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				94E36EE629503A2C0094BAE3 /* ViewController.swift */,
+				94E36EE829503A2C0094BAE3 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		94E36F3229503F150094BAE3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				94E36EE229503A2C0094BAE3 /* AppDelegate.swift */,
+				94E36EE429503A2C0094BAE3 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		94E36F3329503F250094BAE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94E36EEE29503A2D0094BAE3 /* Assets.xcassets */,
+				94E36EF029503A2D0094BAE3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E36EDE29503A2B0094BAE3 /* NikeshTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E36F0C29503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorial" */;
+			buildPhases = (
+				F3AFD7F3BF08C0F578BBBDF0 /* [CP] Check Pods Manifest.lock */,
+				94E36EDB29503A2B0094BAE3 /* Sources */,
+				94E36EDC29503A2B0094BAE3 /* Frameworks */,
+				94E36EDD29503A2B0094BAE3 /* Resources */,
+				F5E6759AF3046CDDF73FBB16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikeshTutorial;
+			productName = NikeshTutorial;
+			productReference = 94E36EDF29503A2C0094BAE3 /* NikeshTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E36EF729503A2D0094BAE3 /* NikeshTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E36F0F29503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorialTests" */;
+			buildPhases = (
+				CDDFADD2247989BC84B2BB76 /* [CP] Check Pods Manifest.lock */,
+				94E36EF429503A2D0094BAE3 /* Sources */,
+				94E36EF529503A2D0094BAE3 /* Frameworks */,
+				94E36EF629503A2D0094BAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E36EFA29503A2D0094BAE3 /* PBXTargetDependency */,
+			);
+			name = NikeshTutorialTests;
+			productName = NikeshTutorialTests;
+			productReference = 94E36EF829503A2D0094BAE3 /* NikeshTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94E36F0129503A2E0094BAE3 /* NikeshTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E36F1229503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorialUITests" */;
+			buildPhases = (
+				EBC57E2612E82781DB3B035D /* [CP] Check Pods Manifest.lock */,
+				94E36EFE29503A2E0094BAE3 /* Sources */,
+				94E36EFF29503A2E0094BAE3 /* Frameworks */,
+				94E36F0029503A2E0094BAE3 /* Resources */,
+				89AAC5408B220C335B07A30B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E36F0429503A2E0094BAE3 /* PBXTargetDependency */,
+			);
+			name = NikeshTutorialUITests;
+			productName = NikeshTutorialUITests;
+			productReference = 94E36F0229503A2E0094BAE3 /* NikeshTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E36ED729503A2B0094BAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					94E36EDE29503A2B0094BAE3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					94E36EF729503A2D0094BAE3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 94E36EDE29503A2B0094BAE3;
+					};
+					94E36F0129503A2E0094BAE3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 94E36EDE29503A2B0094BAE3;
+					};
+				};
+			};
+			buildConfigurationList = 94E36EDA29503A2B0094BAE3 /* Build configuration list for PBXProject "NikeshTutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E36ED629503A2B0094BAE3;
+			productRefGroup = 94E36EE029503A2C0094BAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E36EDE29503A2B0094BAE3 /* NikeshTutorial */,
+				94E36EF729503A2D0094BAE3 /* NikeshTutorialTests */,
+				94E36F0129503A2E0094BAE3 /* NikeshTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E36EDD29503A2B0094BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E36EF229503A2D0094BAE3 /* LaunchScreen.storyboard in Resources */,
+				94E36EEF29503A2D0094BAE3 /* Assets.xcassets in Resources */,
+				94E36EEA29503A2C0094BAE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36EF629503A2D0094BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36F0029503A2E0094BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89AAC5408B220C335B07A30B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial-NikeshTutorialUITests/Pods-NikeshTutorial-NikeshTutorialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial-NikeshTutorialUITests/Pods-NikeshTutorial-NikeshTutorialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial-NikeshTutorialUITests/Pods-NikeshTutorial-NikeshTutorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDFADD2247989BC84B2BB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikeshTutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC57E2612E82781DB3B035D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikeshTutorial-NikeshTutorialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AFD7F3BF08C0F578BBBDF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikeshTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E6759AF3046CDDF73FBB16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial/Pods-NikeshTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial/Pods-NikeshTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NikeshTutorial/Pods-NikeshTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E36EDB29503A2B0094BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E36F3029503C9C0094BAE3 /* UIImageView+Extension.swift in Sources */,
+				94E36EE729503A2C0094BAE3 /* ViewController.swift in Sources */,
+				94E36F2C29503C720094BAE3 /* CGFloat+Extension.swift in Sources */,
+				94E36EED29503A2C0094BAE3 /* NikeshTutorial.xcdatamodeld in Sources */,
+				94E36F1E29503BDF0094BAE3 /* RoundedView.swift in Sources */,
+				94E36F1A29503BA80094BAE3 /* AdaptiveLayoutConstraint.swift in Sources */,
+				94E36F2A29503C640094BAE3 /* UIStackView+Extension.swift in Sources */,
+				94E36F2029503BFE0094BAE3 /* GradientView.swift in Sources */,
+				94E36EE329503A2C0094BAE3 /* AppDelegate.swift in Sources */,
+				94E36F2229503C370094BAE3 /* UIStoryboard+Extension.swift in Sources */,
+				94E36F2E29503C830094BAE3 /* TextFields+Extension.swift in Sources */,
+				94E36F2629503C4F0094BAE3 /* UIView+Extension.swift in Sources */,
+				94E36EE529503A2C0094BAE3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36EF429503A2D0094BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E36EFD29503A2D0094BAE3 /* NikeshTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E36EFE29503A2E0094BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E36F0929503A2E0094BAE3 /* NikeshTutorialUITestsLaunchTests.swift in Sources */,
+				94E36F0729503A2E0094BAE3 /* NikeshTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E36EFA29503A2D0094BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E36EDE29503A2B0094BAE3 /* NikeshTutorial */;
+			targetProxy = 94E36EF929503A2D0094BAE3 /* PBXContainerItemProxy */;
+		};
+		94E36F0429503A2E0094BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E36EDE29503A2B0094BAE3 /* NikeshTutorial */;
+			targetProxy = 94E36F0329503A2E0094BAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94E36EE829503A2C0094BAE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E36EE929503A2C0094BAE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94E36EF029503A2D0094BAE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E36EF129503A2D0094BAE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94E36F0A29503A2E0094BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94E36F0B29503A2E0094BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E36F0D29503A2E0094BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A86CB57D38AE1F4447B080B /* Pods-NikeshTutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NikeshTutorial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E36F0E29503A2E0094BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DFC15907070A123ED9663C /* Pods-NikeshTutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NikeshTutorial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94E36F1029503A2E0094BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3D22364FB03C892C8BC16C /* Pods-NikeshTutorialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeshTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NikeshTutorial";
+			};
+			name = Debug;
+		};
+		94E36F1129503A2E0094BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41F312FF21EEF46C87DEE92 /* Pods-NikeshTutorialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeshTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NikeshTutorial";
+			};
+			name = Release;
+		};
+		94E36F1329503A2E0094BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE66FF4E2C7ACE42D92517E /* Pods-NikeshTutorial-NikeshTutorialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeshTutorial;
+			};
+			name = Debug;
+		};
+		94E36F1429503A2E0094BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE1339EF191BFAF40249C2B /* Pods-NikeshTutorial-NikeshTutorialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UPQMGDBYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikeshakya.tutorial.NikeshTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeshTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E36EDA29503A2B0094BAE3 /* Build configuration list for PBXProject "NikeshTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E36F0A29503A2E0094BAE3 /* Debug */,
+				94E36F0B29503A2E0094BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E36F0C29503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E36F0D29503A2E0094BAE3 /* Debug */,
+				94E36F0E29503A2E0094BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E36F0F29503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E36F1029503A2E0094BAE3 /* Debug */,
+				94E36F1129503A2E0094BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E36F1229503A2E0094BAE3 /* Build configuration list for PBXNativeTarget "NikeshTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E36F1329503A2E0094BAE3 /* Debug */,
+				94E36F1429503A2E0094BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94E36EEB29503A2C0094BAE3 /* NikeshTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94E36EEC29503A2C0094BAE3 /* NikeshTutorial.xcdatamodel */,
+			);
+			currentVersion = 94E36EEC29503A2C0094BAE3 /* NikeshTutorial.xcdatamodel */;
+			path = NikeshTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94E36ED729503A2B0094BAE3 /* Project object */;
+}
